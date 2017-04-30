@@ -1,0 +1,483 @@
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3763 ] - [ DEBUG ]  Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3768 ] - [ DEBUG ]  Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3769 ] - [ DEBUG ]  Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3770 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3771 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3772 ] - [ DEBUG ]  Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3774 ] - [ DEBUG ]  Initializing filter 'characterEncodingFilter'
+2017-04-30 15:09:08  [ RMI TCP Connection(2)-127.0.0.1:3785 ] - [ DEBUG ]  Filter 'characterEncodingFilter' configured successfully
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632455 ] - [ DEBUG ]  Initializing servlet 'dispatcher'
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632459 ] - [ DEBUG ]  Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632459 ] - [ DEBUG ]  Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632460 ] - [ DEBUG ]  Adding [jndiProperties] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632460 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632461 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632461 ] - [ DEBUG ]  Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632484 ] - [ INFO ]  FrameworkServlet 'dispatcher': initialization started
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632486 ] - [ DEBUG ]  Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Sun Apr 30 15:09:05 CST 2017]; root of context hierarchy]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632488 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632489 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [servletContextInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632489 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [jndiProperties]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632490 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632491 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632491 ] - [ DEBUG ]  Looking up JNDI object with name [spring.profiles.active]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632492 ] - [ DEBUG ]  JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].. Returning null.
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632493 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [systemProperties]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632494 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [systemEnvironment]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632494 ] - [ DEBUG ]  Could not find key 'spring.profiles.active' in any property source. Returning [null]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632495 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632495 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632496 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [jndiProperties]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632496 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632497 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632498 ] - [ DEBUG ]  Looking up JNDI object with name [spring.profiles.default]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632498 ] - [ DEBUG ]  JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632499 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [systemProperties]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632500 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [systemEnvironment]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632500 ] - [ DEBUG ]  Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632501 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632502 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632502 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [jndiProperties]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632502 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632503 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632504 ] - [ DEBUG ]  Looking up JNDI object with name [spring.profiles.default]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632505 ] - [ DEBUG ]  JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632506 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [systemProperties]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632506 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [systemEnvironment]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632507 ] - [ DEBUG ]  Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632541 ] - [ DEBUG ]  Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632544 ] - [ DEBUG ]  Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632545 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Apr 30 15:19:37 CST 2017]; parent: Root WebApplicationContext
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632547 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632548 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632549 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632550 ] - [ INFO ]  Loading XML bean definitions from URL [file:/E:/apache-tomcat-7.0.77/webapps/ROOT/WEB-INF/classes/dispatcher-servlet.xml]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632553 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632557 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632561 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.1.xsd=org/springframework/oxm/config/spring-oxm-4.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd=org/springframework/oxm/config/spring-oxm-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632575 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.1.xsd
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632594 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.1.xsd
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632600 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.1.xsd
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632609 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-4.1.xsd
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632645 ] - [ DEBUG ]  Loading bean definitions
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632651 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632654 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632654 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632655 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632656 ] - [ DEBUG ]  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632661 ] - [ DEBUG ]  Looking for matching resources in directory tree [E:\apache-tomcat-7.0.77\webapps\ROOT\WEB-INF\classes\com\meiling\datavisual\controller]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632662 ] - [ DEBUG ]  Searching directory [E:\apache-tomcat-7.0.77\webapps\ROOT\WEB-INF\classes\com\meiling\datavisual\controller] for files matching pattern [E:/apache-tomcat-7.0.77/webapps/ROOT/WEB-INF/classes/com/meiling/datavisual/controller/**/*.class]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632663 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/meiling/datavisual/controller/**/*.class] to resources [file [E:\apache-tomcat-7.0.77\webapps\ROOT\WEB-INF\classes\com\meiling\datavisual\controller\UserController.class]]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632695 ] - [ DEBUG ]  Identified candidate component class: file [E:\apache-tomcat-7.0.77\webapps\ROOT\WEB-INF\classes\com\meiling\datavisual\controller\UserController.class]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632871 ] - [ DEBUG ]  Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632874 ] - [ DEBUG ]  Loaded 20 bean definitions from location pattern [classpath*:dispatcher-servlet.xml]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632875 ] - [ DEBUG ]  Bean factory for WebApplicationContext for namespace 'dispatcher-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@1db3dfac: defining beans [userController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@303d9bde
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632876 ] - [ DEBUG ]  Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@3261c916]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632876 ] - [ DEBUG ]  Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@9dc9ba7]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632877 ] - [ DEBUG ]  Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@a117b8f]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632877 ] - [ DEBUG ]  Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@6a701378]
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632885 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632886 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632887 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-04-30 15:19:37  [ http-bio-7070-exec-3:632888 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632981 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632982 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632983 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632984 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632985 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632985 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632985 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632986 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632986 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632987 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632987 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632988 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632988 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632989 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632989 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632990 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632991 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632991 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632992 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632992 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632993 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@24624a4]
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632995 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@117bf201]
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:632997 ] - [ DEBUG ]  Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@380ff881]
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633006 ] - [ DEBUG ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1db3dfac: defining beans [userController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@303d9bde
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633007 ] - [ DEBUG ]  Creating shared instance of singleton bean 'userController'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633008 ] - [ DEBUG ]  Creating instance of bean 'userController'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633012 ] - [ DEBUG ]  Registered injected element on class [com.meiling.datavisual.controller.UserController]: ResourceElement for private com.meiling.datavisual.service.IUserService com.meiling.datavisual.controller.UserController.mUserServiceImpl
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633013 ] - [ DEBUG ]  Eagerly caching bean 'userController' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633016 ] - [ DEBUG ]  Processing injected element of bean 'userController': ResourceElement for private com.meiling.datavisual.service.IUserService com.meiling.datavisual.controller.UserController.mUserServiceImpl
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633018 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userServiceImpl'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633019 ] - [ DEBUG ]  Finished creating instance of bean 'userController'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633019 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633021 ] - [ DEBUG ]  Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633021 ] - [ DEBUG ]  Creating instance of bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633022 ] - [ DEBUG ]  Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633037 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633041 ] - [ DEBUG ]  Finished creating instance of bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633053 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633053 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633060 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633078 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633081 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633082 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633084 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#411c5673'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633086 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633086 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633087 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633094 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633533 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633540 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#411c5673'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633556 ] - [ DEBUG ]  No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633557 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633562 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633562 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633563 ] - [ DEBUG ]  Looking for request mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Apr 30 15:19:37 CST 2017]; parent: Root WebApplicationContext
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633586 ] - [ INFO ]  Mapped "{[/user/login],methods=[POST],params=[],headers=[],consumes=[],produces=[text/html;charset=UTF-8],custom=[]}" onto public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633586 ] - [ INFO ]  Mapped "{[/user/register],methods=[POST],params=[],headers=[],consumes=[],produces=[text/html;charset=UTF-8],custom=[]}" onto public java.lang.String com.meiling.datavisual.controller.UserController.userRegister(java.lang.String)
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633588 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633589 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633589 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-30 15:19:38  [ http-bio-7070-exec-3:633589 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634602 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634618 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#bba57'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634626 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634627 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#bba57'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634628 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#776654c0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634639 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#776654c0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634639 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1907c5eb'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634645 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1907c5eb'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634646 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#d024a1a'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634651 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#d024a1a'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634652 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6c4158bf'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634657 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6c4158bf'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634658 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#26a35f6f'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634668 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#26a35f6f'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634668 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6481a50d'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634719 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6481a50d'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634719 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#52c8d71b'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634721 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1ba9de2b'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634729 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name '(inner bean)#1ba9de2b'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634731 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1ba9de2b'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634738 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#52c8d71b'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634740 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7943ab0d'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634747 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7943ab0d'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634750 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634751 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Apr 30 15:19:37 CST 2017]; parent: Root WebApplicationContext
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634796 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634796 ] - [ DEBUG ]  Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634796 ] - [ DEBUG ]  Creating instance of bean 'mvcUriComponentsContributor'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634797 ] - [ DEBUG ]  Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634801 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6a66bbd3'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634812 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634820 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#bba57#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634824 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634825 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#bba57#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634826 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#776654c0#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634827 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#776654c0#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634828 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1907c5eb#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634831 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1907c5eb#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634831 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#d024a1a#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634833 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#d024a1a#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634834 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6c4158bf#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634838 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6c4158bf#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634839 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#26a35f6f#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634844 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#26a35f6f#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634845 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6481a50d#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634847 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6481a50d#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634847 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#52c8d71b#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634848 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1ba9de2b#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634849 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name '(inner bean)#1ba9de2b#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634851 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1ba9de2b#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634853 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#52c8d71b#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634854 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7943ab0d#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634854 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7943ab0d#1'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634856 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name '(inner bean)#6a66bbd3'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634857 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Apr 30 15:19:37 CST 2017]; parent: Root WebApplicationContext
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634858 ] - [ DEBUG ]  Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634859 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6a66bbd3'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634860 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634860 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634861 ] - [ DEBUG ]  Finished creating instance of bean 'mvcUriComponentsContributor'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634861 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634862 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634862 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634870 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634880 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634881 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#776654c0#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634882 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#776654c0#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634882 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1907c5eb#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634884 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1907c5eb#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634885 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#d024a1a#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634886 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#d024a1a#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634887 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6c4158bf#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634889 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6c4158bf#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634890 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#26a35f6f#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634894 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#26a35f6f#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634895 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6481a50d#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634897 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6481a50d#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634897 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#52c8d71b#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634898 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1ba9de2b#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634899 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name '(inner bean)#1ba9de2b#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634902 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1ba9de2b#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634903 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#52c8d71b#2'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634904 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#17333d54'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634905 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#17333d54'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634906 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634906 ] - [ DEBUG ]  Looking for exception mappings: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Apr 30 15:19:37 CST 2017]; parent: Root WebApplicationContext
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634908 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634908 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634909 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634910 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634914 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634914 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634914 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634915 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634918 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634918 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634918 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634920 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634928 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634928 ] - [ DEBUG ]  Looking for URL mappings in application context: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Apr 30 15:19:37 CST 2017]; parent: Root WebApplicationContext
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634929 ] - [ DEBUG ]  Rejected bean name 'userController': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634929 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634929 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634929 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634930 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634930 ] - [ DEBUG ]  Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634930 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634930 ] - [ DEBUG ]  Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634931 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634931 ] - [ DEBUG ]  Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634931 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634931 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634932 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634932 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634932 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634932 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634933 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634933 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634933 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634934 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634934 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634934 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634935 ] - [ DEBUG ]  Rejected bean name 'environment': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634935 ] - [ DEBUG ]  Rejected bean name 'systemProperties': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634935 ] - [ DEBUG ]  Rejected bean name 'systemEnvironment': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634937 ] - [ DEBUG ]  Rejected bean name 'servletConfig': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634938 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634943 ] - [ DEBUG ]  Rejected bean name 'messageSource': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634944 ] - [ DEBUG ]  Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634944 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634944 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634945 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634945 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634948 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634948 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634948 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634949 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634952 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634953 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634953 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-04-30 15:19:39  [ http-bio-7070-exec-3:634964 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634975 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634975 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634975 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634976 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0' to allow for resolving potential circular references
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634980 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634980 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634981 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634982 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634992 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634993 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634994 ] - [ INFO ]  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634994 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634994 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634995 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634995 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@61020a80]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634996 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634997 ] - [ DEBUG ]  Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:634998 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635004 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635004 ] - [ DEBUG ]  Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@662d59c2]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635007 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635018 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635019 ] - [ DEBUG ]  Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@4f6db50b]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635020 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635021 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635021 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635022 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635028 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635029 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635029 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635031 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635046 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635046 ] - [ DEBUG ]  Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2ff5a5cb]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635047 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635050 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635059 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635060 ] - [ DEBUG ]  Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@17c571f0]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635061 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635061 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635061 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635072 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635073 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635074 ] - [ DEBUG ]  Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635074 ] - [ DEBUG ]  JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635075 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635075 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635076 ] - [ DEBUG ]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635153 ] - [ DEBUG ]  Published WebApplicationContext of servlet 'dispatcher' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcher]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635153 ] - [ INFO ]  FrameworkServlet 'dispatcher': initialization completed in 2667 ms
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635153 ] - [ DEBUG ]  Servlet 'dispatcher' configured successfully
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635161 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing GET request for [/favicon.ico]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635164 ] - [ DEBUG ]  Looking up handler method for path /favicon.ico
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635168 ] - [ DEBUG ]  Did not find handler method for [/favicon.ico]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635169 ] - [ DEBUG ]  Matching patterns for request [/favicon.ico] are [/**]
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635170 ] - [ DEBUG ]  URI Template variables for request [/favicon.ico] are {}
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635172 ] - [ DEBUG ]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@6ab7e174] and 1 interceptor
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635174 ] - [ DEBUG ]  Last-Modified value for [/favicon.ico] is: -1
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635180 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635181 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:19:40  [ http-bio-7070-exec-3:635182 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665401 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665402 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665416 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665417 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665484 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665764 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:20:10  [ http-bio-7070-exec-5:665777 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bbbd709] was not registered for synchronization because synchronization is not active
+2017-04-30 15:20:11  [ http-bio-7070-exec-5:666072 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666712 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666712 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666713 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666713 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666715 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666719 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666720 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b6e1969] was not registered for synchronization because synchronization is not active
+2017-04-30 15:20:11  [ http-bio-7070-exec-7:666723 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667509 ] - [ DEBUG ]  JDBC Connection [1311953616, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667509 ] - [ DEBUG ]  JDBC Connection [1368358322, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667544 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667544 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667628 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), 123a(String)
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667628 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), 123a(String)
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667800 ] - [ DEBUG ]  <==      Total: 0
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667800 ] - [ DEBUG ]  <==      Total: 0
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667805 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bbbd709]
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667805 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b6e1969]
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667806 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667806 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667889 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667889 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667890 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667890 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667893 ] - [ DEBUG ]  Written [{"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667894 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:20:12  [ http-bio-7070-exec-5:667894 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667893 ] - [ DEBUG ]  Written [{"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667896 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:20:12  [ http-bio-7070-exec-7:667896 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671895 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671896 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671896 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671897 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671898 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671899 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671900 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20aa3eec] was not registered for synchronization because synchronization is not active
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671901 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671903 ] - [ DEBUG ]  JDBC Connection [471495724, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671904 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671905 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), 123a(String)
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671906 ] - [ DEBUG ]  <==      Total: 0
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671907 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20aa3eec]
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671907 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671908 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671909 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671909 ] - [ DEBUG ]  Written [{"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671911 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:20:16  [ http-bio-7070-exec-5:671912 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675287 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675287 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675288 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675288 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675289 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675290 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675290 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40bc79a1] was not registered for synchronization because synchronization is not active
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675292 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675294 ] - [ DEBUG ]  JDBC Connection [1090858230, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675295 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675296 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), 123ass(String)
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675298 ] - [ DEBUG ]  <==      Total: 0
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675299 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40bc79a1]
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675300 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675301 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675301 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675302 ] - [ DEBUG ]  Written [{"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675303 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:20:20  [ http-bio-7070-exec-5:675303 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705418 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705419 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705420 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705420 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705421 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705423 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705423 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34055afe] was not registered for synchronization because synchronization is not active
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705425 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705429 ] - [ DEBUG ]  JDBC Connection [809162918, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705429 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705431 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), hello(String)
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705433 ] - [ DEBUG ]  <==      Total: 0
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705434 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34055afe]
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705434 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705435 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705435 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705438 ] - [ DEBUG ]  Written [{"meta":{"success":false,"message":"ÓÊÏä»òÃÜÂë´íÎó"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705439 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:20:50  [ http-bio-7070-exec-4:705439 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711065 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711065 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711066 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711066 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711067 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711069 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711069 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1753c226] was not registered for synchronization because synchronization is not active
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711071 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711073 ] - [ DEBUG ]  JDBC Connection [1757307076, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711073 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711074 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), 123(String)
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711132 ] - [ DEBUG ]  <==      Total: 1
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711132 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1753c226]
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711132 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711134 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":true,"message":"ok"},"data":{"id":4221405359751,"email":"neworin@163.com","password":"123"}}
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711135 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":true,"message":"ok"},"data":{"id":4221405359751,"email":"neworin@163.com","password":"123"}}
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711135 ] - [ DEBUG ]  Written [{"meta":{"success":true,"message":"ok"},"data":{"id":4221405359751,"email":"neworin@163.com","password":"123"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711135 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:20:56  [ http-bio-7070-exec-4:711136 ] - [ DEBUG ]  Successfully completed request
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720977 ] - [ DEBUG ]  DispatcherServlet with name 'dispatcher' processing POST request for [/user/login]
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720978 ] - [ DEBUG ]  Looking up handler method for path /user/login
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720978 ] - [ DEBUG ]  Returning handler method [public java.lang.String com.meiling.datavisual.controller.UserController.userLogin(java.lang.String)]
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720979 ] - [ DEBUG ]  Returning cached instance of singleton bean 'userController'
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720979 ] - [ DEBUG ]  Reading [java.lang.String] as "application/json;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720981 ] - [ DEBUG ]  Creating a new SqlSession
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720982 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2207b192] was not registered for synchronization because synchronization is not active
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720983 ] - [ DEBUG ]  Fetching JDBC Connection from DataSource
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720984 ] - [ DEBUG ]  JDBC Connection [1926041401, URL=jdbc:mysql://localhost:3306/design, UserName=root@localhost, MySQL Connector Java] will not be managed by Spring
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720985 ] - [ DEBUG ]  ==>  Preparing: select 'true' as QUERYID, id, email, password, avatarUrl, joinTime, nickName from user WHERE ( email = ? and password = ? ) 
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720986 ] - [ DEBUG ]  ==> Parameters: neworin@163.com(String), 123(String)
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720988 ] - [ DEBUG ]  <==      Total: 1
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720989 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2207b192]
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720989 ] - [ DEBUG ]  Returning JDBC Connection to DataSource
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720990 ] - [ DEBUG ]  Invoking ResponseBodyAdvice chain for body={"meta":{"success":true,"message":"ok"},"data":{"id":4221405359751,"email":"neworin@163.com","password":"123"}}
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720991 ] - [ DEBUG ]  After ResponseBodyAdvice chain body={"meta":{"success":true,"message":"ok"},"data":{"id":4221405359751,"email":"neworin@163.com","password":"123"}}
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720991 ] - [ DEBUG ]  Written [{"meta":{"success":true,"message":"ok"},"data":{"id":4221405359751,"email":"neworin@163.com","password":"123"}}] as "text/html;charset=UTF-8" using [org.springframework.http.converter.StringHttpMessageConverter@7e9dbcb4]
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720992 ] - [ DEBUG ]  Null ModelAndView returned to DispatcherServlet with name 'dispatcher': assuming HandlerAdapter completed request handling
+2017-04-30 15:21:06  [ http-bio-7070-exec-4:720992 ] - [ DEBUG ]  Successfully completed request

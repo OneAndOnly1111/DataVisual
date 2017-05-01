@@ -8,6 +8,8 @@
     <result column="avatarUrl" property="avatarurl" jdbcType="VARCHAR" />
     <result column="joinTime" property="jointime" jdbcType="TIMESTAMP" />
     <result column="nickName" property="nickname" jdbcType="VARCHAR" />
+    <result column="region" property="region" jdbcType="VARCHAR"/>
+    <result column="job" property="job" jdbcType="VARCHAR"/>
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -86,7 +88,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-    select 
+    select
     <include refid="Base_Column_List" />
     from user
     where id = #{id,jdbcType=BIGINT}
@@ -102,12 +104,12 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.meiling.datavisual.model.User" >
-    insert into user (id, email, password, 
-      avatarUrl, joinTime, nickName
-      )
-    values (#{id,jdbcType=BIGINT}, #{email,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
-      #{avatarurl,jdbcType=VARCHAR}, #{jointime,jdbcType=TIMESTAMP}, #{nickname,jdbcType=VARCHAR}
-      )
+    insert into user (id, email, password,
+    avatarUrl, joinTime, nickName, region, job
+    )
+    values (#{id,jdbcType=BIGINT}, #{email,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+    #{avatarurl,jdbcType=VARCHAR}, #{jointime,jdbcType=TIMESTAMP}, #{nickname,jdbcType=VARCHAR},#{region},#{job}
+    )
   </insert>
   <insert id="insertSelective" parameterType="com.meiling.datavisual.model.User" >
     insert into user
@@ -130,6 +132,12 @@
       <if test="nickname != null" >
         nickName,
       </if>
+      <if test="region != null">
+        region,
+      </if>
+      <if test="job != null">
+        job,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -148,6 +156,12 @@
         #{jointime,jdbcType=TIMESTAMP},
       </if>
       <if test="nickname != null" >
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="region != null">
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="job != null">
         #{nickname,jdbcType=VARCHAR},
       </if>
     </trim>
@@ -179,6 +193,12 @@
       <if test="record.nickname != null" >
         nickName = #{record.nickname,jdbcType=VARCHAR},
       </if>
+      <if test="record.region != null">
+        region = #{record.region,jdbcType=VARCHAR},
+      </if>
+      <if test="record.job != null">
+        job = #{record.job,jdbcType=VARCHAR},
+      </if>
     </set>
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -187,11 +207,13 @@
   <update id="updateByExample" parameterType="map" >
     update user
     set id = #{record.id,jdbcType=BIGINT},
-      email = #{record.email,jdbcType=VARCHAR},
-      password = #{record.password,jdbcType=VARCHAR},
-      avatarUrl = #{record.avatarurl,jdbcType=VARCHAR},
-      joinTime = #{record.jointime,jdbcType=TIMESTAMP},
-      nickName = #{record.nickname,jdbcType=VARCHAR}
+    email = #{record.email,jdbcType=VARCHAR},
+    password = #{record.password,jdbcType=VARCHAR},
+    avatarUrl = #{record.avatarurl,jdbcType=VARCHAR},
+    joinTime = #{record.jointime,jdbcType=TIMESTAMP},
+    nickName = #{record.nickname,jdbcType=VARCHAR}
+    region = #{record.region,jdbcType=VARCHAR}
+    job = #{record.job,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -214,6 +236,12 @@
       <if test="nickname != null" >
         nickName = #{nickname,jdbcType=VARCHAR},
       </if>
+      <if test="region != null">
+        nickName = #{region,jdbcType=VARCHAR},
+      </if>
+      <if test="job != null">
+        nickName = #{job,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
@@ -223,7 +251,9 @@
       password = #{password,jdbcType=VARCHAR},
       avatarUrl = #{avatarurl,jdbcType=VARCHAR},
       joinTime = #{jointime,jdbcType=TIMESTAMP},
-      nickName = #{nickname,jdbcType=VARCHAR}
+      nickName = #{nickname,jdbcType=VARCHAR},
+      region = #{region,jdbcType=VARCHAR},
+      job = #{job,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

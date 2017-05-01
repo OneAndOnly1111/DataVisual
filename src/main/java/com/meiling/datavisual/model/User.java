@@ -15,6 +15,10 @@ public class User {
 
     private String nickname;
 
+    private String region;
+
+    private String job;
+
     public Long getId() {
         return id;
     }
@@ -61,5 +65,21 @@ public class User {
 
     public void setNickname(String nickname) {
         this.nickname = nickname == null ? null : nickname.trim();
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
     }
 }
